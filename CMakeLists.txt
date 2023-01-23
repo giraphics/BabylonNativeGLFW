@@ -34,7 +34,7 @@ if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/node_modules/babylonjs/babylon.max.js")
         "node_modules/babylonjs-gui/babylon.gui.js.map")
 
     set(SCRIPTS
-        "Scripts/game.js"
+        "Scripts/game.ts"
         "Scripts/ammo.js"
         "Scripts/meshwriter.min.js"
         "Scripts/recast.js")

@@ -124,7 +124,7 @@ void RefreshBabylon(GLFWwindow *window)
 	loader.LoadScript("app:///Scripts/babylonjs.materials.js");
 	loader.LoadScript("app:///Scripts/babylon.gui.js");
 	loader.LoadScript("app:///Scripts/meshwriter.min.js");
-	loader.LoadScript("app:///Scripts/game.js");
+	loader.LoadScript("app:///Scripts/game.ts");
 
 	ImGui_ImplBabylon_Init( width , height );
 }
