@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@giraphics/bjsnlib": "0.0.28",
+    "@giraphics/bjsnlib": "0.0.29",
     "babylonjs": "^5.17.0",
     "babylonjs-gui": "^5.17.0",
     "babylonjs-loaders": "^5.17.0",
