@@ -7,6 +7,7 @@ var engine = new BABYLON.NativeEngine();
 var scene = new BABYLON.Scene(engine);
 
 engine.runRenderLoop(function () {
+    Test_Greeter('Parminder') // Uncomment when 'unexpected keyword 'export'' error got fixed.
     scene.render();
 });
 

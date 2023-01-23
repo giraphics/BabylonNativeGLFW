@@ -24,6 +24,7 @@ target_compile_features(BabylonNativeExample PRIVATE cxx_std_17)
 
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/node_modules/babylonjs/babylon.max.js")
     set(BABYLON_SCRIPTS
+        "node_modules/@giraphics/bjsnlib/dist/bjsnlib.js"
         "node_modules/babylonjs-loaders/babylonjs.loaders.js"
         "node_modules/babylonjs-loaders/babylonjs.loaders.js.map"
         "node_modules/babylonjs/babylon.max.js"
